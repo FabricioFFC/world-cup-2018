@@ -1,23 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   Text,
   Image,
-  View
+  View,
 } from 'react-native';
-
-const TeamItem = ({ item }) => {
-  return (
-    <View style={styles.itemContainer}>
-      <Image
-        style={styles.flag}
-        source={{ uri: item.flag }}
-      />
-      <Text style={styles.item}>{item.name}</Text>
-    </View>
-  );
-}
-
 
 const styles = StyleSheet.create({
   flag: {
@@ -43,5 +31,22 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
 });
+
+const TeamItem = ({ item }) => (
+  <View style={styles.itemContainer}>
+    <Image
+      style={styles.flag}
+      source={{ uri: item.flag }}
+    />
+    <Text style={styles.item}>{item.name}</Text>
+  </View>
+);
+
+TeamItem.propTypes = {
+  item: PropTypes.shape({
+    flag: PropTypes.string,
+    name: PropTypes.string,
+  }).isRequired,
+};
 
 export default TeamItem;

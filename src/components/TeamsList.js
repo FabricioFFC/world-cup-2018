@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, FlatList, Text, ActivityIndicator } from 'react-native';
+import { View, FlatList, ActivityIndicator } from 'react-native';
 
 import TeamItem from './TeamItem';
 import teamsApi from '../api/TeamsApi';
 
 class TeamsList extends Component {
-  state = { countries: [], loading: true };
+  constructor(props) {
+    super(props);
+    this.state = {
+      countries: [],
+      loading: true,
+    };
+  }
 
-  async componentDidMount() {
+  async componentWillMount() {
     const countries = await teamsApi.getAll();
     this.setState({ countries, loading: false });
   }
+
   render() {
     if (this.state.loading) {
-      return(
-        <View style={{flex: 1, padding: 20}}>
+      return (
+        <View style={{ flex: 1, padding: 20 }}>
           <ActivityIndicator size="large" color="#0000ff" />
         </View>
       );
@@ -24,8 +31,8 @@ class TeamsList extends Component {
       <FlatList
         data={this.state.countries}
         numColumns={2}
-        keyExtractor={ (item) => item.code }
-        renderItem={ ({item}) => <TeamItem item={item}/> }
+        keyExtractor={item => item.code}
+        renderItem={({ item }) => <TeamItem item={item} />}
       />
     );
   }

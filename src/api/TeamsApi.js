@@ -7,7 +7,8 @@ async function getAll() {
 
     return responseJson;
   } catch (error) {
-    console.error(error);
+    console.error(error); /* eslint-disable-line no-console */
+    return error;
   }
 }
 

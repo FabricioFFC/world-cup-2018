@@ -1,17 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
-
-const Header = ({ title }) => {
-  return (
-    <View>
-      <Text style={styles.header}>{title}</Text>
-    </View>
-  );
-}
 
 const styles = StyleSheet.create({
   header: {
@@ -21,5 +14,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+const Header = ({ title }) => (
+  <View>
+    <Text style={styles.header}>{title}</Text>
+  </View>
+);
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default Header;
