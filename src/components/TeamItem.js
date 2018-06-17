@@ -4,8 +4,10 @@ import {
   StyleSheet,
   Text,
   Image,
-  View,
+  TouchableOpacity,
 } from 'react-native';
+
+import { withNavigation } from 'react-navigation';
 
 const styles = StyleSheet.create({
   flag: {
@@ -32,21 +34,33 @@ const styles = StyleSheet.create({
   },
 });
 
-const TeamItem = ({ item }) => (
-  <View style={styles.itemContainer}>
-    <Image
-      style={styles.flag}
-      source={{ uri: item.flag }}
-    />
-    <Text style={styles.item}>{item.name}</Text>
-  </View>
-);
+const TeamItem = ({ item, navigation }) => {
+  const goToDetails = teamCode => navigation.navigate('TeamDetails', { teamCode });
+
+  return (
+    <TouchableOpacity onPress={() => goToDetails(item.code)} style={styles.itemContainer}>
+      <Image
+        style={styles.flag}
+        source={{ uri: item.flag }}
+      />
+      <Text style={styles.item}>{item.name}</Text>
+    </TouchableOpacity>
+  );
+};
 
 TeamItem.propTypes = {
   item: PropTypes.shape({
     flag: PropTypes.string,
     name: PropTypes.string,
+    code: PropTypes.string,
   }).isRequired,
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func,
+  }),
 };
 
-export default TeamItem;
+TeamItem.defaultProps = {
+  navigation: undefined,
+};
+
+export default withNavigation(TeamItem);
