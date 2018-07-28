@@ -1,0 +1,258 @@
+[
+    {
+        "code": "ARG",
+        "name": "Argentina",
+        "flag": "http://img.fifa.com/images/flags/4/arg.png",
+        "rank": 5,
+        "appearances": 16,
+        "titles": 2
+    },
+    {
+        "code": "AUS",
+        "name": "Australia",
+        "flag": "http://img.fifa.com/images/flags/4/aus.png",
+        "rank": 40,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "BEL",
+        "name": "Belgium",
+        "flag": "http://img.fifa.com/images/flags/4/bel.png",
+        "rank": 3,
+        "appearances": 12,
+        "titles": 0
+    },
+    {
+        "code": "BRA",
+        "name": "Brazil",
+        "flag": "http://img.fifa.com/images/flags/4/bra.png",
+        "rank": 2,
+        "appearances": 20,
+        "titles": 5
+    },
+    {
+        "code": "COL",
+        "name": "Colombia",
+        "flag": "http://img.fifa.com/images/flags/4/col.png",
+        "rank": 16,
+        "appearances": 5,
+        "titles": 0
+    },
+    {
+        "code": "CRC",
+        "name": "Costa Rica",
+        "flag": "http://img.fifa.com/images/flags/4/crc.png",
+        "rank": 25,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "CRO",
+        "name": "Croatia",
+        "flag": "http://img.fifa.com/images/flags/4/cro.png",
+        "rank": 18,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "DEN",
+        "name": "Denmark",
+        "flag": "http://img.fifa.com/images/flags/4/den.png",
+        "rank": 12,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "EGY",
+        "name": "Egypt",
+        "flag": "http://img.fifa.com/images/flags/4/egy.png",
+        "rank": 46,
+        "appearances": 2,
+        "titles": 0
+    },
+    {
+        "code": "ENG",
+        "name": "England",
+        "flag": "http://img.fifa.com/images/flags/4/eng.png",
+        "rank": 13,
+        "appearances": 14,
+        "titles": 1
+    },
+    {
+        "code": "FRA",
+        "name": "France",
+        "flag": "http://img.fifa.com/images/flags/4/fra.png",
+        "rank": 7,
+        "appearances": 14,
+        "titles": 1
+    },
+    {
+        "code": "GER",
+        "name": "Germany",
+        "flag": "http://img.fifa.com/images/flags/4/ger.png",
+        "rank": 1,
+        "appearances": 18,
+        "titles": 4
+    },
+    {
+        "code": "ISL",
+        "name": "Iceland",
+        "flag": "http://img.fifa.com/images/flags/4/isl.png",
+        "rank": 22,
+        "appearances": 0,
+        "titles": 0
+    },
+    {
+        "code": "IRN",
+        "name": "Iran",
+        "flag": "http://img.fifa.com/images/flags/4/irn.png",
+        "rank": 36,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "JPN",
+        "name": "Japan",
+        "flag": "http://img.fifa.com/images/flags/4/jpn.png",
+        "rank": 60,
+        "appearances": 5,
+        "titles": 0
+    },
+    {
+        "code": "KOR",
+        "name": "Korea Republic",
+        "flag": "http://img.fifa.com/images/flags/4/kor.png",
+        "rank": 61,
+        "appearances": 9,
+        "titles": 0
+    },
+    {
+        "code": "MEX",
+        "name": "Mexico",
+        "flag": "http://img.fifa.com/images/flags/4/mex.png",
+        "rank": 15,
+        "appearances": 15,
+        "titles": 0
+    },
+    {
+        "code": "MAR",
+        "name": "Morocco",
+        "flag": "http://img.fifa.com/images/flags/4/mar.png",
+        "rank": 42,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "NGA",
+        "name": "Nigeria",
+        "flag": "http://img.fifa.com/images/flags/4/nga.png",
+        "rank": 47,
+        "appearances": 5,
+        "titles": 0
+    },
+    {
+        "code": "PAN",
+        "name": "Panama",
+        "flag": "http://img.fifa.com/images/flags/4/pan.png",
+        "rank": 55,
+        "appearances": 0,
+        "titles": 0
+    },
+    {
+        "code": "PER",
+        "name": "Peru",
+        "flag": "http://img.fifa.com/images/flags/4/per.png",
+        "rank": 11,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "POL",
+        "name": "Poland",
+        "flag": "http://img.fifa.com/images/flags/4/pol.png",
+        "rank": 10,
+        "appearances": 7,
+        "titles": 0
+    },
+    {
+        "code": "POR",
+        "name": "Portugal",
+        "flag": "http://img.fifa.com/images/flags/4/por.png",
+        "rank": 4,
+        "appearances": 6,
+        "titles": 0
+    },
+    {
+        "code": "RUS",
+        "name": "Russia",
+        "flag": "http://img.fifa.com/images/flags/4/rus.png",
+        "rank": 66,
+        "appearances": 10,
+        "titles": 0
+    },
+    {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "flag": "http://img.fifa.com/images/flags/4/ksa.png",
+        "rank": 67,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "SEN",
+        "name": "Senegal",
+        "flag": "http://img.fifa.com/images/flags/4/sen.png",
+        "rank": 28,
+        "appearances": 1,
+        "titles": 0
+    },
+    {
+        "code": "SRB",
+        "name": "Serbia",
+        "flag": "http://img.fifa.com/images/flags/4/srb.png",
+        "rank": 35,
+        "appearances": 11,
+        "titles": 0
+    },
+    {
+        "code": "ESP",
+        "name": "Spain",
+        "flag": "http://img.fifa.com/images/flags/4/esp.png",
+        "rank": 8,
+        "appearances": 14,
+        "titles": 1
+    },
+    {
+        "code": "SWE",
+        "name": "Sweden",
+        "flag": "http://img.fifa.com/images/flags/4/swe.png",
+        "rank": 23,
+        "appearances": 11,
+        "titles": 0
+    },
+    {
+        "code": "SUI",
+        "name": "Switzerland",
+        "flag": "http://img.fifa.com/images/flags/4/sui.png",
+        "rank": 6,
+        "appearances": 10,
+        "titles": 0
+    },
+    {
+        "code": "TUN",
+        "name": "Tunisia",
+        "flag": "http://img.fifa.com/images/flags/4/tun.png",
+        "rank": 14,
+        "appearances": 4,
+        "titles": 0
+    },
+    {
+        "code": "URU",
+        "name": "Uruguay",
+        "flag": "http://img.fifa.com/images/flags/4/uru.png",
+        "rank": 17,
+        "appearances": 12,
+        "titles": 2
+    }
+]
