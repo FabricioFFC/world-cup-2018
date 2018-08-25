@@ -1,0 +1,3047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamDetails render exception cases render components even when team dont have players 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        undefined,
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "height": 150,
+          "opacity": 1,
+          "overflow": "hidden",
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+            Object {
+              "scale": 1,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Image
+            source={
+              Object {
+                "height": 150,
+                "uri": "https://img.fifa.com/image/upload/t_tc1/apzbapzlyerna0wn0bcs.jpg",
+                "width": 750,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": 150,
+                "position": "absolute",
+                "top": 0,
+                "width": 750,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <RCTScrollView
+      collapsable={undefined}
+      onChangeHeaderVisibility={[Function]}
+      onScroll={[Function]}
+      scrollEventThrottle={1}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "height": 150,
+                "opacity": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 150,
+                }
+              }
+            >
+              <View />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "uri": "https://i.imgur.com/ueaaqJj.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 150,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                  "width": 150,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                2
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Ranking na FIFA
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                20
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Presenças na Copa
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                5
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Títulos
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                11
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Semifinais
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                7
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Finais
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <RCTScrollView
+              data={Array []}
+              disableVirtualization={false}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              initialNumToRender={10}
+              invertStickyHeaders={undefined}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={2}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={2}
+              onLayout={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={Array []}
+              updateCellsBatchingPeriod={50}
+              viewabilityConfigCallbackPairs={Array []}
+              windowSize={21}
+            >
+              <View />
+            </RCTScrollView>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "top": 0,
+          },
+          Object {
+            "height": 40,
+            "width": 750,
+          },
+        ]
+      }
+    >
+      <View
+        collapsable={undefined}
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 40,
+            "opacity": 0,
+          }
+        }
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateY": 40,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "#008558",
+                  "color": "white",
+                  "fontSize": 20,
+                  "height": 40,
+                  "paddingLeft": 10,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              Brazil
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TeamDetails render exception cases render components even when team prop is undefined 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        undefined,
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "height": 150,
+          "opacity": 1,
+          "overflow": "hidden",
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+            Object {
+              "scale": 1,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Image
+            source={
+              Object {
+                "height": 150,
+                "uri": undefined,
+                "width": 750,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": 150,
+                "position": "absolute",
+                "top": 0,
+                "width": 750,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <RCTScrollView
+      collapsable={undefined}
+      onChangeHeaderVisibility={[Function]}
+      onScroll={[Function]}
+      scrollEventThrottle={1}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "height": 150,
+                "opacity": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 150,
+                }
+              }
+            >
+              <View />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 150,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                  "width": 150,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Ranking na FIFA
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Presenças na Copa
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Títulos
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Semifinais
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              />
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Finais
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <RCTScrollView
+              data={Array []}
+              disableVirtualization={false}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              initialNumToRender={10}
+              invertStickyHeaders={undefined}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={2}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={2}
+              onLayout={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={Array []}
+              updateCellsBatchingPeriod={50}
+              viewabilityConfigCallbackPairs={Array []}
+              windowSize={21}
+            >
+              <View />
+            </RCTScrollView>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "top": 0,
+          },
+          Object {
+            "height": 40,
+            "width": 750,
+          },
+        ]
+      }
+    >
+      <View
+        collapsable={undefined}
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 40,
+            "opacity": 0,
+          }
+        }
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateY": 40,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "#008558",
+                  "color": "white",
+                  "fontSize": 20,
+                  "height": 40,
+                  "paddingLeft": 10,
+                  "paddingTop": 8,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TeamDetails render show the team details components with team image, stats and players 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        undefined,
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "height": 150,
+          "opacity": 1,
+          "overflow": "hidden",
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+            Object {
+              "scale": 1,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Image
+            source={
+              Object {
+                "height": 150,
+                "uri": "https://img.fifa.com/image/upload/t_tc1/apzbapzlyerna0wn0bcs.jpg",
+                "width": 750,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": 150,
+                "position": "absolute",
+                "top": 0,
+                "width": 750,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <RCTScrollView
+      collapsable={undefined}
+      onChangeHeaderVisibility={[Function]}
+      onScroll={[Function]}
+      scrollEventThrottle={1}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "height": 150,
+                "opacity": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 150,
+                }
+              }
+            >
+              <View />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "uri": "https://i.imgur.com/ueaaqJj.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 150,
+                  "justifyContent": "center",
+                  "marginTop": 20,
+                  "width": 150,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                2
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Ranking na FIFA
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                20
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Presenças na Copa
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                5
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Títulos
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                11
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Semifinais
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#D64545",
+                    "fontSize": 30,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                7
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "gray",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Finais
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <RCTScrollView
+              data={
+                Array [
+                  Object {
+                    "age": 25,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308370_sq-150_jpg",
+                    "name": "A. Becker",
+                    "position": "Goalkeeper",
+                  },
+                  Object {
+                    "age": 31,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/266773_sq-150_jpg",
+                    "name": "Cassio",
+                    "position": "Goalkeeper",
+                  },
+                  Object {
+                    "age": 24,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/395427_sq-150_jpg",
+                    "name": "Ederson",
+                    "position": "Goalkeeper",
+                  },
+                  Object {
+                    "age": 33,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/289964_sq-150_jpg",
+                    "name": "T. Silva",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 33,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/289958_sq-150_jpg",
+                    "name": "Miranda",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 32,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/398286_sq-150_jpg",
+                    "name": "Geromel",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 32,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/217161_sq-150_jpg",
+                    "name": "Filipe Luis",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 30,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218284_sq-150_jpg",
+                    "name": "Marcelo",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 24,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/332946_sq-150_jpg",
+                    "name": "Marquinhos",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 26,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/335656_sq-150_jpg",
+                    "name": "Danilo",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 29,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/266774_sq-150_jpg",
+                    "name": "Fagner",
+                    "position": "DEFENDER",
+                  },
+                  Object {
+                    "age": 26,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308386_sq-150_jpg",
+                    "name": "Casemiro",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 30,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218292_sq-150_jpg",
+                    "name": "R. Augusto",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 26,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308366_sq-150_jpg",
+                    "name": "P. Coutinho",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 29,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/362727_sq-150_jpg",
+                    "name": "Paulinho",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 33,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/208016_sq-150_jpg",
+                    "name": "Fernandinho",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 25,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/394018_sq-150_jpg",
+                    "name": "Fred",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 29,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218306_sq-150_jpg",
+                    "name": "Willian",
+                    "position": "MIDFIELDER",
+                  },
+                  Object {
+                    "age": 27,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/305070_sq-150_jpg",
+                    "name": "D. Costa",
+                    "position": "FORWARD",
+                  },
+                  Object {
+                    "age": 21,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/386559_sq-150_jpg",
+                    "name": "G. Jesus",
+                    "position": "FORWARD",
+                  },
+                  Object {
+                    "age": 26,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/314197_sq-150_jpg",
+                    "name": "Neymar JR",
+                    "position": "FORWARD",
+                  },
+                  Object {
+                    "age": 26,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/344547_sq-150_jpg",
+                    "name": "Firmino",
+                    "position": "FORWARD",
+                  },
+                  Object {
+                    "age": 30,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/329039_sq-150_jpg",
+                    "name": "Taison",
+                    "position": "FORWARD",
+                  },
+                  Object {
+                    "age": 57,
+                    "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/404828_sq-150_jpg",
+                    "name": "Tite",
+                    "position": "Coach",
+                  },
+                ]
+              }
+              disableVirtualization={false}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              initialNumToRender={10}
+              invertStickyHeaders={undefined}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              numColumns={2}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={2}
+              onLayout={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={Array []}
+              updateCellsBatchingPeriod={50}
+              viewabilityConfigCallbackPairs={Array []}
+              windowSize={21}
+            >
+              <View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/308370_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        A. Becker
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        Goalkeeper
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        25
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/266773_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Cassio
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        Goalkeeper
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        31
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/395427_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Ederson
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        Goalkeeper
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        24
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/289964_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        T. Silva
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        33
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/289958_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Miranda
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        33
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/398286_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Geromel
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        32
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/217161_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Filipe Luis
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        32
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/218284_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Marcelo
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        30
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/332946_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Marquinhos
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        24
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/335656_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Danilo
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        26
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/266774_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Fagner
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        DEFENDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        29
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/308386_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Casemiro
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        26
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/218292_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        R. Augusto
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        30
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/308366_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        P. Coutinho
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        26
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/362727_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Paulinho
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        29
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/208016_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Fernandinho
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        33
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/394018_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Fred
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        25
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/218306_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        Willian
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        MIDFIELDER
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        29
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/305070_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        D. Costa
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        FORWARD
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        27
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "column",
+                          "marginTop": 20,
+                        }
+                      }
+                    >
+                      <Image
+                        source={
+                          Object {
+                            "uri": "https://api.fifa.com/api/v1/picture/players/2018fwc/386559_sq-150_jpg",
+                          }
+                        }
+                        style={
+                          Object {
+                            "flex": 1,
+                            "height": 150,
+                            "width": 150,
+                          }
+                        }
+                      />
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        G. Jesus
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 14,
+                          }
+                        }
+                      >
+                        FORWARD
+                      </Text>
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Object {
+                            "color": "#D64545",
+                            "fontSize": 12,
+                          }
+                        }
+                      >
+                        21
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "height": 0,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "top": 0,
+          },
+          Object {
+            "height": 40,
+            "width": 750,
+          },
+        ]
+      }
+    >
+      <View
+        collapsable={undefined}
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 40,
+            "opacity": 0,
+          }
+        }
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateY": 40,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "backgroundColor": "#008558",
+                  "color": "white",
+                  "fontSize": 20,
+                  "height": 40,
+                  "paddingLeft": 10,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              Brazil
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

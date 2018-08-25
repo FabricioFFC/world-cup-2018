@@ -1,0 +1,160 @@
+{
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "http://img.fifa.com/images/flags/4/bra.png",
+    "badge": "https://i.imgur.com/ueaaqJj.png",
+    "profile_image": "https://img.fifa.com/image/upload/t_tc1/apzbapzlyerna0wn0bcs.jpg",
+    "stats": {
+        "rank": 2,
+        "appearances": 20,
+        "titles": 5,
+        "semifinals": 11,
+        "final": 7
+    },
+    "players": [
+        {
+            "name": "A. Becker",
+            "position": "Goalkeeper",
+            "age": 25,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308370_sq-150_jpg"
+        },
+        {
+            "name": "Cassio",
+            "position": "Goalkeeper",
+            "age": 31,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/266773_sq-150_jpg"
+        },
+        {
+            "name": "Ederson",
+            "position": "Goalkeeper",
+            "age": 24,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/395427_sq-150_jpg"
+        },
+        {
+            "name": "T. Silva",
+            "position": "DEFENDER",
+            "age": 33,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/289964_sq-150_jpg"
+        },
+        {
+            "name": "Miranda",
+            "position": "DEFENDER",
+            "age": 33,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/289958_sq-150_jpg"
+        },
+        {
+            "name": "Geromel",
+            "position": "DEFENDER",
+            "age": 32,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/398286_sq-150_jpg"
+        },
+        {
+            "name": "Filipe Luis",
+            "position": "DEFENDER",
+            "age": 32,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/217161_sq-150_jpg"
+        },
+        {
+            "name": "Marcelo",
+            "position": "DEFENDER",
+            "age": 30,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218284_sq-150_jpg"
+        },
+        {
+            "name": "Marquinhos",
+            "position": "DEFENDER",
+            "age": 24,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/332946_sq-150_jpg"
+        },
+        {
+            "name": "Danilo",
+            "position": "DEFENDER",
+            "age": 26,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/335656_sq-150_jpg"
+        },
+        {
+            "name": "Fagner",
+            "position": "DEFENDER",
+            "age": 29,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/266774_sq-150_jpg"
+        },
+        {
+            "name": "Casemiro",
+            "position": "MIDFIELDER",
+            "age": 26,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308386_sq-150_jpg"
+        },
+        {
+            "name": "R. Augusto",
+            "position": "MIDFIELDER",
+            "age": 30,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218292_sq-150_jpg"
+        },
+        {
+            "name": "P. Coutinho",
+            "position": "MIDFIELDER",
+            "age": 26,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/308366_sq-150_jpg"
+        },
+        {
+            "name": "Paulinho",
+            "position": "MIDFIELDER",
+            "age": 29,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/362727_sq-150_jpg"
+        },
+        {
+            "name": "Fernandinho",
+            "position": "MIDFIELDER",
+            "age": 33,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/208016_sq-150_jpg"
+        },
+        {
+            "name": "Fred",
+            "position": "MIDFIELDER",
+            "age": 25,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/394018_sq-150_jpg"
+        },
+        {
+            "name": "Willian",
+            "position": "MIDFIELDER",
+            "age": 29,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/218306_sq-150_jpg"
+        },
+        {
+            "name": "D. Costa",
+            "position": "FORWARD",
+            "age": 27,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/305070_sq-150_jpg"
+        },
+        {
+            "name": "G. Jesus",
+            "position": "FORWARD",
+            "age": 21,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/386559_sq-150_jpg"
+        },
+        {
+            "name": "Neymar JR",
+            "position": "FORWARD",
+            "age": 26,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/314197_sq-150_jpg"
+        },
+        {
+            "name": "Firmino",
+            "position": "FORWARD",
+            "age": 26,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/344547_sq-150_jpg"
+        },
+        {
+            "name": "Taison",
+            "position": "FORWARD",
+            "age": 30,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/329039_sq-150_jpg"
+        },
+        {
+            "name": "Tite",
+            "position": "Coach",
+            "age": 57,
+            "img": "https://api.fifa.com/api/v1/picture/players/2018fwc/404828_sq-150_jpg"
+        }
+    ]
+}

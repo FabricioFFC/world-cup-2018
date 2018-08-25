@@ -100,7 +100,7 @@ const TeamDetails = ({ team }) => {
   const background = () => (
     <View key="background">
       <Image source={{
-        uri: team.profile_image,
+        uri: team.profileImage,
         width: window.width,
         height: PARALLAX_HEADER_HEIGHT,
       }}
@@ -188,11 +188,34 @@ const TeamDetails = ({ team }) => {
 
 TeamDetails.propTypes = {
   team: PropTypes.shape({
+    badge: PropTypes.string,
+    code: PropTypes.string,
     flag: PropTypes.string,
     name: PropTypes.string,
-    code: PropTypes.string,
+    profileImage: PropTypes.string,
+    stats: PropTypes.shape({
+      appearances: PropTypes.number,
+      final: PropTypes.number,
+      rank: PropTypes.number,
+      semifinals: PropTypes.number,
+      titles: PropTypes.number,
+    }),
+    players: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string,
+        position: PropTypes.string,
+        age: PropTypes.number,
+        img: PropTypes.string,
+      })
+    ),
   }).isRequired,
-
 };
+
+TeamDetails.defaultProps = {
+  team: {
+    stats: {},
+    players: [],
+  }
+}
 
 export default TeamDetails;
