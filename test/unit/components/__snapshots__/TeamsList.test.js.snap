@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TeamList render exception cases show teams list even when teams is null 1`] = `
+exports[`TeamsList render exception cases show teams list even when teams is null 1`] = `
 <FlatList
   data=""
   disableVirtualization={false}
@@ -17,7 +17,7 @@ exports[`TeamList render exception cases show teams list even when teams is null
 />
 `;
 
-exports[`TeamList render show teams list when teams are loaded 1`] = `
+exports[`TeamsList render show teams list when teams are loaded 1`] = `
 <FlatList
   data={
     Array [
@@ -293,7 +293,7 @@ exports[`TeamList render show teams list when teams are loaded 1`] = `
 />
 `;
 
-exports[`TeamList render show the loading when teams werent load yet 1`] = `
+exports[`TeamsList render show the loading when teams werent load yet 1`] = `
 <Component
   style={
     Object {

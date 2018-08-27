@@ -13,7 +13,7 @@ class TeamDetailsScreen extends Component {
     this.routeParams = props.navigation.state.params; // eslint-disable-line react/prop-types
   }
 
-  async componentWillMount() {
+  async componentDidMount() {
     const team = await teamsApi.get(this.routeParams.teamCode);
     this.setState({ team, loading: false });
   }

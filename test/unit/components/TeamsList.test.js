@@ -1,5 +1,4 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import ShallowRenderer from 'react-test-renderer/shallow';
 import { ActivityIndicator, FlatList } from 'react-native';
 import nock from 'nock';
@@ -9,7 +8,7 @@ import teamsListExpectedData from '../../fixtures/httpResponses/teamsList'
 
 const asyncFlush = () => new Promise(resolve => setTimeout(resolve, 100));
 
-describe('TeamList', () => {
+describe('TeamsList', () => {
   describe('render', () => {
     it('show the loading when teams werent load yet', () => {
       // given
@@ -21,8 +20,8 @@ describe('TeamList', () => {
       shallowRenderer.render(<TeamsList />);
       const result = shallowRenderer.getRenderOutput();
       // then
-      expect(result).toMatchSnapshot();
       expect(result.props.children).toEqual(expectedComponent);
+      expect(result).toMatchSnapshot();
     });
 
     it('show teams list when teams are loaded', async() => {

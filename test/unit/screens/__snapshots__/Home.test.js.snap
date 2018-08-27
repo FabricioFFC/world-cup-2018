@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen render show TeamsList component 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "#f4f5f9",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "paddingBottom": 25,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 25,
+    }
+  }
+>
+  <TeamsList />
+</Component>
+`;
