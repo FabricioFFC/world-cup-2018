@@ -60,6 +60,7 @@ TeamItem.propTypes = {
 };
 
 TeamItem.defaultProps = {
+  item: {},
   navigation: undefined,
 };
 

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamItem render exception cases render component even when item prop is undefined 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingVertical": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "borderColor": "#c7c6c6",
+        "borderWidth": 1,
+        "flex": 1,
+        "height": 22,
+        "width": 32,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 3,
+        "paddingLeft": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`TeamItem render show the team item component with the team flag and name 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingVertical": 10,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Image
+    source={
+      Object {
+        "uri": "http://img.fifa.com/images/flags/4/bra.png",
+      }
+    }
+    style={
+      Object {
+        "borderColor": "#c7c6c6",
+        "borderWidth": 1,
+        "flex": 1,
+        "height": 22,
+        "width": 32,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "flex": 3,
+        "paddingLeft": 10,
+      }
+    }
+  >
+    Brazil
+  </Text>
+</View>
+`;

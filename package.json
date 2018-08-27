@@ -21,6 +21,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
+    "test:coverage": "jest --coverage '--collectCoverageFrom=src/**/*.js' '--collectCoverageFrom=src/**/*.jsx'",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

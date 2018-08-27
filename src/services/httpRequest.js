@@ -4,7 +4,6 @@ import humps from 'humps';
 async function get(url) {
   try {
     const response = await axios.get(url);
-
     return humps.camelizeKeys(response.data);
   } catch ({ response }) {
     return {

@@ -13,7 +13,7 @@ class TeamsList extends Component {
     };
   }
 
-  async componentWillMount() {
+  async componentDidMount() {
     const countries = await teamsApi.getAll();
     this.setState({ countries, loading: false });
   }

@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamList render exception cases show teams list even when teams is null 1`] = `
+<FlatList
+  data=""
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={2}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`TeamList render show teams list when teams are loaded 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "appearances": 16,
+        "code": "ARG",
+        "flag": "http://img.fifa.com/images/flags/4/arg.png",
+        "name": "Argentina",
+        "rank": 5,
+        "titles": 2,
+      },
+      Object {
+        "appearances": 4,
+        "code": "AUS",
+        "flag": "http://img.fifa.com/images/flags/4/aus.png",
+        "name": "Australia",
+        "rank": 40,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 12,
+        "code": "BEL",
+        "flag": "http://img.fifa.com/images/flags/4/bel.png",
+        "name": "Belgium",
+        "rank": 3,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 20,
+        "code": "BRA",
+        "flag": "http://img.fifa.com/images/flags/4/bra.png",
+        "name": "Brazil",
+        "rank": 2,
+        "titles": 5,
+      },
+      Object {
+        "appearances": 5,
+        "code": "COL",
+        "flag": "http://img.fifa.com/images/flags/4/col.png",
+        "name": "Colombia",
+        "rank": 16,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "CRC",
+        "flag": "http://img.fifa.com/images/flags/4/crc.png",
+        "name": "Costa Rica",
+        "rank": 25,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "CRO",
+        "flag": "http://img.fifa.com/images/flags/4/cro.png",
+        "name": "Croatia",
+        "rank": 18,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "DEN",
+        "flag": "http://img.fifa.com/images/flags/4/den.png",
+        "name": "Denmark",
+        "rank": 12,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 2,
+        "code": "EGY",
+        "flag": "http://img.fifa.com/images/flags/4/egy.png",
+        "name": "Egypt",
+        "rank": 46,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 14,
+        "code": "ENG",
+        "flag": "http://img.fifa.com/images/flags/4/eng.png",
+        "name": "England",
+        "rank": 13,
+        "titles": 1,
+      },
+      Object {
+        "appearances": 14,
+        "code": "FRA",
+        "flag": "http://img.fifa.com/images/flags/4/fra.png",
+        "name": "France",
+        "rank": 7,
+        "titles": 1,
+      },
+      Object {
+        "appearances": 18,
+        "code": "GER",
+        "flag": "http://img.fifa.com/images/flags/4/ger.png",
+        "name": "Germany",
+        "rank": 1,
+        "titles": 4,
+      },
+      Object {
+        "appearances": 0,
+        "code": "ISL",
+        "flag": "http://img.fifa.com/images/flags/4/isl.png",
+        "name": "Iceland",
+        "rank": 22,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "IRN",
+        "flag": "http://img.fifa.com/images/flags/4/irn.png",
+        "name": "Iran",
+        "rank": 36,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 5,
+        "code": "JPN",
+        "flag": "http://img.fifa.com/images/flags/4/jpn.png",
+        "name": "Japan",
+        "rank": 60,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 9,
+        "code": "KOR",
+        "flag": "http://img.fifa.com/images/flags/4/kor.png",
+        "name": "Korea Republic",
+        "rank": 61,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 15,
+        "code": "MEX",
+        "flag": "http://img.fifa.com/images/flags/4/mex.png",
+        "name": "Mexico",
+        "rank": 15,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "MAR",
+        "flag": "http://img.fifa.com/images/flags/4/mar.png",
+        "name": "Morocco",
+        "rank": 42,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 5,
+        "code": "NGA",
+        "flag": "http://img.fifa.com/images/flags/4/nga.png",
+        "name": "Nigeria",
+        "rank": 47,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 0,
+        "code": "PAN",
+        "flag": "http://img.fifa.com/images/flags/4/pan.png",
+        "name": "Panama",
+        "rank": 55,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "PER",
+        "flag": "http://img.fifa.com/images/flags/4/per.png",
+        "name": "Peru",
+        "rank": 11,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 7,
+        "code": "POL",
+        "flag": "http://img.fifa.com/images/flags/4/pol.png",
+        "name": "Poland",
+        "rank": 10,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 6,
+        "code": "POR",
+        "flag": "http://img.fifa.com/images/flags/4/por.png",
+        "name": "Portugal",
+        "rank": 4,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 10,
+        "code": "RUS",
+        "flag": "http://img.fifa.com/images/flags/4/rus.png",
+        "name": "Russia",
+        "rank": 66,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "KSA",
+        "flag": "http://img.fifa.com/images/flags/4/ksa.png",
+        "name": "Saudi Arabia",
+        "rank": 67,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 1,
+        "code": "SEN",
+        "flag": "http://img.fifa.com/images/flags/4/sen.png",
+        "name": "Senegal",
+        "rank": 28,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 11,
+        "code": "SRB",
+        "flag": "http://img.fifa.com/images/flags/4/srb.png",
+        "name": "Serbia",
+        "rank": 35,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 14,
+        "code": "ESP",
+        "flag": "http://img.fifa.com/images/flags/4/esp.png",
+        "name": "Spain",
+        "rank": 8,
+        "titles": 1,
+      },
+      Object {
+        "appearances": 11,
+        "code": "SWE",
+        "flag": "http://img.fifa.com/images/flags/4/swe.png",
+        "name": "Sweden",
+        "rank": 23,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 10,
+        "code": "SUI",
+        "flag": "http://img.fifa.com/images/flags/4/sui.png",
+        "name": "Switzerland",
+        "rank": 6,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 4,
+        "code": "TUN",
+        "flag": "http://img.fifa.com/images/flags/4/tun.png",
+        "name": "Tunisia",
+        "rank": 14,
+        "titles": 0,
+      },
+      Object {
+        "appearances": 12,
+        "code": "URU",
+        "flag": "http://img.fifa.com/images/flags/4/uru.png",
+        "name": "Uruguay",
+        "rank": 17,
+        "titles": 2,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={2}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`TeamList render show the loading when teams werent load yet 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#0000ff"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</Component>
+`;
